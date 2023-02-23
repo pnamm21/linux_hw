@@ -1,0 +1,12 @@
+   0 mkdir -p /home/user/start && touch /home/user/start/1.txt
+   1 vi 1.txt
+   2 date >> 1.txt
+   3 mkdir -p /opt/task && touch /opt/task/start.txt
+   4 cat 1.txt >> start.txt
+   5 ls -a / | tail -4 >> start.txt
+   6 cat start.txt
+   7 history
+   8 touch Linux_HW.txt
+   9 history > Linux_HW.txt
+  10 export_file Linux_HW.txt
+  
