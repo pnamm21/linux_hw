@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+PID   USER     TIME  COMMAND
+    1 root      0:01 {init} /bin/sh /sbin/init
+    2 root      0:00 [kthreadd]
+
+   0 vi HW.txt
+   1 ps -ef | head -3 >> HW.txt
+   2 cat HW.txt
+   3 chmod g+w,u-r,o+x HW.txt
+   4 ls -l
+   5 history
+   6 history >> HW.txt
